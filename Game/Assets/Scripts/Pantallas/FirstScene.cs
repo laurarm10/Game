@@ -1,17 +1,14 @@
-using UnityEngine;
-using UnityEngine.SceneManagement; // Imprescindible para cambiar de escena
+﻿using UnityEngine;
+using UnityEngine.SceneManagement; // Para cambiar de escena
 
 public class FirstScene : MonoBehaviour
 {
-    public void Jugar()
+    void Update()
     {
-        // Carga la siguiente escena en la lista
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-    }
-
-    public void SalirJuego()
-    {
-        Debug.Log("Saliendo del juego...");
-        Application.Quit();
+        // Si pulsas espacio → cargar escena
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            SceneManager.LoadScene("SampleScene");
+        }
     }
 }

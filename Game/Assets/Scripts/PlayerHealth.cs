@@ -1,5 +1,6 @@
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement; // Para cambiar de escena
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -9,6 +10,8 @@ public class PlayerHealth : MonoBehaviour
 
     public float damageCooldown = 1f; // 1 segundo entre daños
     private float damageTimer = 0f;
+
+    public string gameOverScene = "GameOverScene"; 
 
     void Start()
     {
@@ -33,7 +36,7 @@ public class PlayerHealth : MonoBehaviour
 
         if (currentLives == 0)
         {
-            Debug.Log("GAME OVER");
+            SceneManager.LoadScene(gameOverScene);
         }
     }
 

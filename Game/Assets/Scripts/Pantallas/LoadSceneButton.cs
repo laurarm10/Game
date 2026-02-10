@@ -1,11 +1,14 @@
-using UnityEngine;
-using UnityEngine.SceneManagement; // Para cambiar de escena
+ï»¿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LoadSceneButton : MonoBehaviour
 {
-    // Este método se llama al pulsar el botón
-    public void LoadScene()
+    void Update()
     {
-        SceneManager.LoadScene("InicioScene");
+        // Si pulsas espacio â†’ cargar escena
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            SceneManager.LoadScene("InicioScene");
+        }
     }
 }
