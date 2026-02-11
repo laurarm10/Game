@@ -5,7 +5,7 @@ public class SkeletonMov : MonoBehaviour
 {
     public float detectionRange = 8f;
     public float walkSpeed = 2f;
-    public float runSpeed = 4f;
+    public float runSpeed = 3f;
 
     private NavMeshAgent agent;
     private Transform player;

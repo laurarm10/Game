@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class EnemyAttack : MonoBehaviour
 {
-    public float attackRange = 1.5f; // Distancia para hacer daño
-    public float attackCooldown = 1f; // Tiempo entre ataques
+    public float attackRange = 2f; // Distancia para hacer daño
+    public float attackCooldown = 3f; // Tiempo entre ataques
     private float attackTimer = 0f;
 
     private Transform player;
