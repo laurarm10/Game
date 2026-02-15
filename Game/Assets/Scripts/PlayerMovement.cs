@@ -15,7 +15,7 @@ public class PlayerMovement : MonoBehaviour
 
     public TMP_Text sprintText;
 
-    public float crouchHeight = 1f;     // Altura al agacharse
+    public float crouchHeight = 0.8f;     // Altura al agacharse
     public float standHeight = 1.7f;      // Altura normal
     public float crouchSpeed = 3f;      // Velocidad mientras agachas (opcional)
 

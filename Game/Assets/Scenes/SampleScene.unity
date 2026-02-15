@@ -11193,7 +11193,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SkeletonMov
   detectionRange: 8
   walkSpeed: 2
-  runSpeed: 5
+  runSpeed: 3
   patrolRadius: 10
   patrolWaitTime: 2
 --- !u!195 &90390771
@@ -16534,7 +16534,7 @@ MonoBehaviour:
   sprintRechargeTime: 3
   sprintTimer: 7
   sprintText: {fileID: 573090046}
-  crouchHeight: 1
+  crouchHeight: 0.8
   standHeight: 1.7
   crouchSpeed: 3
   playerCamera: {fileID: 330585546}
@@ -32107,7 +32107,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SkeletonMov
   detectionRange: 8
   walkSpeed: 2
-  runSpeed: 5
+  runSpeed: 3
   patrolRadius: 10
   patrolWaitTime: 2
 --- !u!1001 &781921607
@@ -75719,7 +75719,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SkeletonMov
   detectionRange: 8
   walkSpeed: 2
-  runSpeed: 5
+  runSpeed: 3
   patrolRadius: 10
   patrolWaitTime: 2
 --- !u!1 &2081529852 stripped
